@@ -1,0 +1,144 @@
+.body
+{
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.contactbox
+{
+ 
+    background-color: transparent;
+    text-align: left;
+    font-size: 200%;
+    margin: auto;
+    
+    height: fit-content;
+    width:800px;
+    max-width: 100%;
+    max-height: 100%;
+    background-repeat: no-repeat;
+     
+    border-radius: 10px; 
+    padding-bottom: 10px;
+    margin-bottom: 1%;
+}
+.bg
+{
+    width: 50%;
+    margin:auto;
+    background-color: rgb(116, 116, 116);
+}
+
+    .text
+{   min-width: auto;
+    min-height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    font-size: 75%;
+     
+    margin-left: 5%;
+    
+}
+.submit
+{
+    min-width: auto;
+    min-height: 30%;
+     
+   
+    text-align: right;
+    color:aliceblue;
+    margin-top: 1%;
+    font-size: 180%;
+    border-color:  rgb(36, 157, 218);
+    background-color: rgb(36, 157, 218);
+    border-radius: 10px;
+    margin-left:600px
+   
+}
+.submit:hover
+{
+    color:rgb(244, 244, 244);
+    background-color: rgb(36, 157, 218);
+    transition: 0.1s;
+     
+    opacity: 100%;
+}
+
+.visitreason
+{
+ 
+    max-width: 800px;
+    font-size: 75%;
+    resize:both;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 5px;
+
+
+}
+.center 
+{
+    tr
+    margin:auto
+}
+.textBoxP
+{
+    position: absolute;
+    font-size: 100%;
+    margin-left: 2%;
+    
+    height: fit-content;
+    resize:none;
+    
+    background-color: rgb(116, 116, 116);
+    border-color: rgb(116,116,116);
+    
+}
+.textBoxR
+{
+    position: absolute;
+    font-size: 100%;
+    margin-left: 1%;
+    
+    height: fit-content;
+    resize:none;
+    
+    background-color: rgb(116, 116, 116);
+    border-color: rgb(116,116,116);
+    
+}
+.prompts
+{
+    position: absolute; 
+ 
+}
+.responsebox
+{
+ 
+    background-color: rgb(116, 116, 116);
+    text-align: left;
+    font-size: 150%;
+    margin: auto;
+ 
+    margin-bottom: 0;
+    height: 250px;
+    width:800px;
+    background-repeat: no-repeat;
+     
+    border-radius: 10px; 
+    
+ 
+}
+.promptbox
+{
+    background-color: rgb(116, 116, 116);
+    text-align: left;
+    font-size: 150%;
+    margin: auto;
+     
+    height: 100px;
+    width:800px;
+    background-repeat: no-repeat;
+     
+    border-radius: 10px; 
+    padding-bottom: 10px;
+}
