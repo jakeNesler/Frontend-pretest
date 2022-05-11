@@ -1,8 +1,11 @@
  
-
+ 
 var key = config.SECRET_API_KEY;
 
+
+
 function contact(){ 
+  
 document.getElementById('quest0').value = " ";
 document.getElementById('prompt0').value = " ";
 var object;
@@ -23,7 +26,7 @@ const data = {
   method: "POST",
   headers: {
     "Content-Type": "application/json",
-    Authorization: ` Bearer ` + key,
+    Authorization: ` Bearer  ` + key,
   },
   body: JSON.stringify(data),
 
@@ -38,15 +41,7 @@ const data = {
  
 }
 
-function replacer(key, value) {
-  if (typeof value === "number") {
-    return undefined;
-  }
-  if (key === "email") {
-    return "Removed for privacy";
-  }
-  return value;
-}
+  
   
 
 
