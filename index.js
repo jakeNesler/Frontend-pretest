@@ -21,7 +21,7 @@ const data = {
   method: "POST",
   headers: {
     "Content-Type": "application/json",
-    Authorization: ` Bearer  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`,
+    Authorization: ` Bearer  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`,
   },
   body: JSON.stringify(data),
 
