@@ -1,5 +1,7 @@
  
 
+var key = config.SECRET_API_KEY;
+
 function contact(){ 
 document.getElementById('quest0').value = " ";
 document.getElementById('prompt0').value = " ";
@@ -21,7 +23,7 @@ const data = {
   method: "POST",
   headers: {
     "Content-Type": "application/json",
-    Authorization: ` Bearer  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`,
+    Authorization: ` Bearer ` + key,
   },
   body: JSON.stringify(data),
 
